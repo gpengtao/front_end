@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- x秒之后自动跳转到百度首页 -->
+    <meta http-equiv="refresh" content="600000;url=http://www.baidu.com"/>
+    <title>table</title>
+</head>
+<body>
+<!--tr，即“table row（表格行）”。td，即“table data cell（表格单元格）”。-->
+<div>
+    <table>
+        <caption>考试成绩表</caption>
+
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <td>英语</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>小明</td>
+            <td>80</td>
+            <td>90</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>小红</td>
+            <td>90</td>
+            <td>90</td>
+            <td>80</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td>平均</td>
+            <td>85</td>
+            <td>90</td>
+            <td>75</td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+<hr/>
+<div>
+    <table>
+        <tr>
+            <td colspan="3">xxx小学学生爱好统计记录</td>
+        </tr>
+        <tr>
+            <td>姓名</td>
+            <td>小明</td>
+            <td>小红</td>
+        </tr>
+        <tr>
+            <td rowspan="2">爱好</td>
+            <td>游戏</td>
+            <td>读书</td>
+        </tr>
+        <tr>
+            <td>看电视</td>
+            <td>上网</td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
